@@ -28,4 +28,6 @@ private:
 	UPROPERTY(EditAnywhere) float MoveTime = 4;
 	UPROPERTY(EditAnywhere) bool ShouldMove;
 	FVector OriginalLocation;
+	FVector TargetLocation;
+	float Speed;
 };
